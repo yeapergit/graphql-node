@@ -1,0 +1,23 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server2.js",
+    "devStartDummy": "nodemon server1.js",
+    "devStartApollo": "nodemon apollo/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
