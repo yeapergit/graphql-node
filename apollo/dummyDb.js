@@ -20,6 +20,7 @@ const shops = [
 { id: 5, shopName: "Luciano Shop #2", accessRequestId: 3 },
 { id: 6, shopName: "Jose Shop #1", accessRequestId: 4 },
 { id: 7, shopName: "Lara Shop #1", accessRequestId: 5 },
+{ id: 8, shopName: "Shop without accessRequest", accessRequestId: 6 },
 ];
 
 module.exports = {

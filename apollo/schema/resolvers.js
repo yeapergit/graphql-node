@@ -33,7 +33,10 @@ const resolvers = {
       },
     // shops
     shops: () => {
-      return shops;
+      return shops.map(shop => {
+        const accessRequest = accessRequests.find(request => request.id === shop.accessRequestId);
+        return { ...shop, accessRequest };
+      });
     },
     shop: (parent, args) => {
       const id = args.id;
